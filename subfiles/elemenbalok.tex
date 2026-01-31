@@ -1,0 +1,90 @@
+%! TEX root = elemenbalok.tex
+% the main TeX file which is intended to compile, :VimtexReload after adjustment
+   % this file should be included in the main file
+% :h vimtex-tex-root
+\documentclass[../bkd.tex]{subfiles}
+%ensure the class of docs
+
+\begin{document}
+
+
+\section{Struktur-Struktur Bangunan}%
+\label{sec:Struktur-Struktur Bangunan}
+
+\subsection{Balok}%
+\label{sub:Balok}
+
+Balok adalah elemen struktural horizontal yang berfungsi
+untuk mendistribusikan beban dari lantai, atap, atau dinding ke
+kolom atau pondasi. Balok bekerja terutama terhadap gaya lentur
+(bending) dan gaya geser (shear). Dalam konstruksi, balok dirancang
+untuk memastikan stabilitas dan kekuatan bangunan. Fungsi utama
+balok adlaah mendistribusikan beban yang dialirkan ke kolom.
+Selain itu juga sebahai penahan gaya lentur akibat beban horizontal
+maupun vertikal dan menghubungkan kolom dan elemen lain
+dalam rangka struktur bangunan. Sama halnya dengan kolom, balok
+dapat diklasifikasikan. Rinciannya dapat dilihat pada gambar
+berikut:
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=.82\textwidth]{../figures/klasifikasi_balok.jpeg}
+		% filename may not contain space but _
+	\end{center}
+	\caption{Klasifikasi Balok}
+	\label{fig:klasbalok}
+\end{figure}
+
+
+Dalam konstruksi bangunan, balok induk dan balok anak
+adalah dua jenis balok struktural yang bekerja bersama untuk
+mendistribusikan beban secara efisien. Keduanya memiliki peran
+penting dalam memastikan stabilitas dan kekuatan lantai, atap, atau
+elemen struktural lainnya. Faktor yang mempengaruhi desain balok
+adalah penggunaan material untuk menentukan daya dukung balok,
+seberapa besar beban yang dipikul, bentang (Span) yang berarti
+panjang balok memengaruhi dimensi dan kekakuannya, jenis
+tumpuan, dan defleksi untuk mencegah deformasi berlebihan.
+
+\begin{enumerate}
+	\item Balok Induk \textit{(Primary Beam)}A
+	\item[] Balok induk adalah balok utama yang menerima beban
+	      langsung dari balok anak atau elemen struktural lain seperti
+	      lantai dan dinding. Balok induk kemudian mentransfer beban
+	      ini ke kolom. Umumnya dibuat dari beton bertulang, baja,
+	      atau kayu, tergantung pada kebutuhan struktur. Untuk
+	      menentukan besaran balok induk ditentukan 1/10 – 1/20 dari
+	      bentangan, misalnya:
+
+	      = (1/20x600) x (1/10x600)
+	      = 30 cm x 60 cm
+	      Maka besaran balok induk:
+	      lebarnya 30 cm dengan
+	      ketebalan 60 cm
+
+	\item Balok Anak \textit{(Secondary Beam)}
+	\item[] Balok anak adalah balok yang lebih kecil dan dirancang untuk mendistribusikan beban lantai atau elemen struktural lainnya ke balok induk. Fungsi balok anak adalah menyokong lantai atau elemen non-struktural lainnya dan membantu meningkatkan distribusi beban secara merata. Materialnya juga beton bertulang, baja, atau kayu, tetapi dengan dimensi lebih kecil dibandingkan balok induk.
+	      Untuk menentukan besaran balok anak maka sebaiknya bentangan di bagi dua untuk menentukan as atau garis tengahnya, ini berfungsi untuk memberikan keseimbangan dari bentangan, maka 1/10 – 1/12 dari as bentangan, contohnya:
+	      Maka :
+	      = (1/12 x 300) x (1/10 x 300)
+	      = 25 cm x 30 cm
+	      Jadi besaran balok anak:
+	      lebarnya 25 cm dengan
+	      ketebalan 30 cm
+
+	      Konstruksi bangunan adalah elemen penting dalam pengembangan peradaban manusia yang mencakup berbagai aspek, mulai dari pondasi, kolom, hingga sistem struktur. Pemahaman mendalam terhadap prinsip-prinsip dasar ini memungkinkan terciptanya bangunan yang kokoh, fungsional, dan berkelanjutan, sekaligus menjawab tantangan modern yang menuntut efisiensi serta
+
+\end{enumerate}
+
+\subsection{Kesimpulan}
+\label{sub:Kesimpulan} % (fold)
+
+Konstruksi bangunan adalah elemen penting dalam pengembangan peradaban manusia yang mencakup berbagai aspek, mulai dari pondasi, kolom, hingga sistem struktur. Pemahaman mendalam terhadap prinsip-prinsip dasar ini memungkinkan terciptanya bangunan yang kokoh, fungsional, dan berkelanjutan, sekaligus menjawab tantangan modern yang menuntut efisiensi serta keberlanjutan. Melalui analisis yang mendalam, diharapkan bahwa pengetahuan ini dapat menjadi dasar untuk menghasilkan konstruksi bangunan yang kuat, stabil, dan berkelanjutan. Pemahaman terhadap kebutuhan teknis dan estetika, serta penerapan inovasi yang ramah lingkungan, menjadi kunci utama untuk menjawab tantangan zaman dalam dunia konstruksi. Dengan kolaborasi lintas disiplin dan pemanfaatan teknologi inovatif, masa depan dunia konstruksi diharapkan dapat menghasilkan solusi yang tidak hanya memenuhi kebutuhan teknis, tetapi juga berdampak positif terhadap lingkungan dan masyarakat.
+
+
+
+
+\bibliographystyle{apalike}
+\bibliography{../filename.bib} % required for citecompletion, not work in mainfile
+\end{document}
+

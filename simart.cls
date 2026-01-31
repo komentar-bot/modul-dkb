@@ -51,7 +51,7 @@
 }
 
 % Syntax will be active after first compile
-%\usepackage{comment}
+\usepackage{comment}
 
 % color the table's cell \cellcolor{}
 \usepackage[table, svgnames]{xcolor}
@@ -127,7 +127,7 @@
 % PREAMBLE OF BIBLIOGRAPHY
 \usepackage[round]{natbib}
 \setcitestyle{open={(},close={)}}
-%\def\biblio{\bibliographystyle{apalike}\bibliography{references.bib}} % bliography in subfile use with onlysubfile
+\def\biblio{\bibliographystyle{apalike}\bibliography{references.bib}} % bliography in subfile use with onlysubfile
 
 \makeatletter
 \renewcommand\@biblabel[1]{\textbf{#1.}} % Remove the square brackets from each bibliography item ('[1]' to '1.')
@@ -173,6 +173,7 @@
 	frame=trBL}
 
 \lstset{style=fixprintcode}
+\usepackage{amsmath}
 %----------------------------------------------------------------------------------------
 % CONFIGURATION OF TIKZ
 % often show undefined control sequence when put over some code

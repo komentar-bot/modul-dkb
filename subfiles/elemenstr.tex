@@ -1,0 +1,259 @@
+%! TEX root = elemenstr.tex
+% the main TeX file which is intended to compile, :VimtexReload after adjustment
+   % this file should be included in the main file
+% :h vimtex-tex-root
+\documentclass[../dkb.tex]{subfiles}
+%ensure the class of docs
+
+\begin{document}
+
+\section{Struktur-Struktur Bangunan}%
+\label{sec:Struktur-Struktur Bangunan}
+
+\subsection{Pondasi}%
+\label{sub:Pondasi}
+
+\textbf{Pondasi} adalah elemen penting dalam konstruksi bangunan yang bertugas menyalurkan beban struktur ke tanah. Pondasi termasuk dalam sub struktur bangunan. Pondasi terbagi menjadi dua jenis utama, yaitu pondasi dangkal dan pondasi dalam, yang dipilih berdasarkan kondisi tanah, beban bangunan, dan jenis konstruksi. Pondasi dangkal digunakan jika beban bangunan dapat didistribusikan secara efektif pada lapisan tanah yang berada dekat dengan permukaan. Berikut jenis-jenisnya:
+
+\begin{enumerate}
+	\item Pondasi Telapak \textit{(Spread Footing)}: Pondasi ini berbentuk lempengan beton bertulang yang diletakkan langsung di bawah kolom atau dinding. Beban disebarkan ke area tanah yang lebih luas. Umumnya memiliki kedalaman 1,5-2 meter. Sangat cocok digunakan untuk bangunan kecil hingga menengah di tanah yang stabil.
+	\item Pondasi Memanjang \textit{(Strip Footing)}: Pondasi ini berupa balok beton memanjang di bawah dinding atau struktur linear lainnya. Digunakan untuk menahan beban dari dinding. Umumnya digunakan pada bangunan sederhana seperti rumah tinggal.
+	\item Pondasi Tikar \textit{(Raft Foundation/Mat Foundation)}: Pondasi ini menggunakan pelat beton bertulang besar yang mencakup seluruh area bangunan. Beban bangunan didistribusikan merata ke tanah. Seringkali digunakan pada tanah dengan daya dukung rendah atau untuk bangunan yang memiliki banyak kolom dan beban besar.
+	\item Pondasi Cincin: Pondasi ini adalah salah satu jenis pondasi dangkal berbentuk lingkaran yang biasanya digunakan untuk menopang struktur silindris atau melingkar, seperti menara air, cerobong asap, silo, atau bangunan dengan kolom utama berbentuk bulat. Pondasi ini dirancang untuk mendistribusikan beban ke tanah secara merata melalui bentuk lingkarannya, sehingga memberikan stabilitas pada struktur. Materialnya terbuat dari beton bertulang agar mampu menahan beban vertikal maupun lateral. Termasuk pondasi dangkal karena biasanya berada dekat permukaan tanah, tetapi dapat disesuaikan berdasarkan analisis geoteknik.
+\end{enumerate}
+
+Pondasi Dalam digunakan untuk menyalurkan beban bangunan ke lapisan tanah yang lebih dalam, yang memiliki daya dukung lebih baik. Berikut adalah jenis pondasi dalam yang umum digunakan di Indonesia:
+
+\tabitems Pondasi Tiang Pancang \textit{(Pile Foundation)}, pondasi dalam yang menggunakan elemen panjang berbentuk silindris yang ditanam ke dalam tanah untuk menyalurkan beban struktur ke lapisan tanah yang lebih stabil. Tiang pancang digunakan ketika lapisan tanah permukaan tidak memiliki daya dukung yang cukup untuk menopang bangunan. Umumnya digunakan untuk bangunan tinggi, jembatan, atau struktur di atas tanah lunak. Pondasi ini mengurangi risiko penurunan diferensial pada bangunan besar atau berat. Beberapa jenis tiang pancang dapat dilihat pada tabel~\ref{tb:jenistiang} dan Kelebihan vs kelemahan pondasi tiang pancang dapat dilihat pada tabel~\ref{tb:tiangpancang}
+
+\begin{table}[htb]
+	\caption{Jenis-jenis tiang pancang}
+	\label{tb:jenistiang}
+	\begin{tabularx}{0.8\textwidth}{|X|X|X|}
+		\hline
+		\textbf{Jenis Tiang Pancang}  &  \textbf{Deskripsi}                                                                                            &  \textbf{Kegunaan}  \\
+		\hline
+		Tiang beton                   &  Tiang pancang terbuat dari beton pracetak atau beton bertulang yang kuat menahan beban vertikal dan lateral.  &  Digunakan untuk bangunan besar seperti gedung tinggi dan jembatan.  \\
+		\hline
+		Tiang baja                    &  Tiang pancang terbuat dari beton pracetak atau beton bertulang yang kuat menahan beban vertikal dan lateral.  &  Cocok untuk tanah berbatu atau proyek berat seperti dermaga.  \\
+		\hline
+		Tiang kayu                    &  Tiang pancang tradisional yang terbuat dari batang kayu panjang.                                              &  Digunakan untuk konstruksi ringan di tanah basah atau rawa.  \\
+		\hline
+		Tiang komposit                &  Kombinasi dua material, seperti beton dan baja, untuk mendapatkan kekuatan dan fleksibilitas lebih baik.      &  Digunakan untuk proyek yang memerlukan daya tahan tinggi.  \\
+		\hline
+	\end{tabularx}
+\end{table}
+
+\citep{debatarajas2021}
+
+\begin{table}[htb]
+	\caption{Kelebihan vs Kelemahan Pondasi Tiang Pancang}
+	\label{tb:tiangpancang}
+	\begin{tabularx}{.8\textwidth}{XXX}
+		\hline
+		Aspek            &  Kelebihan                                       &  Kekurangan  \\
+		\hline
+		Efesiensi beban  &  Dapat menahan beban besar                       &  Biaya tinggi untuk alat dan instalasi  \\
+		Fleksibilitas    &  Cocok untuk berbagai kondisi tanah              &  Membutuhkan ruang kerja besar untuk alat berat  \\
+		Stabilitas       &  Memberikan stabilitas terhadap gaya horizontal  &  Instalasi dapat menimbulkan getaran di sekitar area  \\
+		Kecepatan        &  Cepat untuk proyek besar                        &  Tidak cocok untuk lokasi sempit atau padat.  \\
+		\hline
+	\end{tabularx}
+\end{table}
+
+\citep{supriyanto2019}
+
+\tabitems Pondasi Bore Pile, salah satu jenis pondasi dalam yang
+menggunakan metode pengeboran tanah untuk membuat
+lubang di kedalaman tertentu, yang kemudian diisi dengan
+beton bertulang. Proses ini dilakukan di lokasi proyek. Bore pile
+banyak digunakan pada proyek-proyek konstruksi besar,
+terutama di kawasan perkotaan, karena metode ini lebih minim
+getaran dibandingkan dengan tiang pancang. Selain itu pondasi
+bore pile mentransfer beban bangunan ke lapisan tanah keras di
+kedalaman tertentu. Proses pengerjaan bore pile dapat dilihat
+pada penjelasan gambar~\ref{fig:borepile} berikut:
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=.82\textwidth]{bore.jpeg}
+	\end{center}
+	\caption{Proses Pengerjaan Bore Pile}
+	\label{fig:borepile}
+\end{figure}
+
+Di Indonesia kita mengenal ada 3 (tiga) jenis bore pile yaitu bore pile kering, Bore pile basah, dan Mini Pile.
+
+\begin{table}[htb]
+	\caption{Perbandingan Pondasi Bore Pile dan Tiang Pancang}
+	\label{tb:pile}
+	\begin{tabularx}{.8\textwidth}{cp{2cm}Xp{3cm}}
+		\hline
+		\textbf{No}  &  \textbf{Aspek}    &  \textbf{Bore Pile}                      &  \textbf{Tiang Pancang}  \\
+		\hline
+		1            &  Metode Instalasi  &  Pengeboran dan pengecoran di lokasi.    &  Pemancangan tiang pracetak.  \\
+		\hline
+		2            &  Getaran           &  Tidak ada getaran.                      &  Menimbulkan getaran selama instalasi.  \\
+		\hline
+		3            &  Lingkungan        &  Lebih ramah untuk area perkotaan.       &  Dapat mengganggu bangunan sekitar.  \\
+		\hline
+		4            &  Kecepatan         &  Lebih lambat karena proses pengeboran.  &  Lebih cepat untuk proyek besar.  \\
+		\hline
+		5            &  Kondisi Tanah     &  Cocok untuk tanah lunak.                &  Cocok untuk tanah keras di kedalaman.  \\
+		\hline
+	\end{tabularx}
+\end{table}
+
+\tabitems Pondasi Sumuran \textit{(Caisson Foundation)}, Berbentuk seperti sumur besar yang diisi beton bertulang. Sumuran ditempatkan hingga mencapai tanah keras (Simalango et al., 2021). Digunakan untuk jembatan, dermaga, dan bangunan berat di area berair. Ciri utama pondasi sumuran adalah berbentuk silinder yang berfungsi untuk menopang struktur besar, dengan diameter yang cukup besar untuk menahan beban vertikal dan horizontal. Materialnya terbuat dari beton bertulang, baja, atau material komposit. Pondasi ini Mampu menahan beban besar dan memberikan stabilitas tinggi, namun membutuhkan peralatan khusus dan biaya tinggi.
+
+\tabitems Pondasi \textit{Diaphragm Wall}, adalah jenis pondasi dalam berbentuk dinding vertikal yang terbuat dari beton bertulang. Menurut (Christian et al., 2021) Pondasi ini dirancang untuk menahan tekanan tanah lateral dan vertikal, serta digunakan sebagai elemen struktural utama pada proyek-proyek besar seperti basement, terowongan, dermaga, atau bendungan. Materialnya terbuat dari beton bertulang untuk kekuatan struktural yang tinggi. Fungsi dan kegunaannya adalah sebagai penahan tekanan tanah, penghalang air, dan mendukung struktur berat.A
+
+Pemilihan pondasi yang tepat tergantung pada analisis geoteknik, kebutuhan struktur, dan faktor lingkungan. Pondasi dangkal cocok untuk bangunan kecil di tanah stabil, sedangkan pondasi dalam diperlukan untuk struktur besar atau tanah lunak. Memahami karakteristik setiap jenis pondasi membantu memastikan keberhasilan proyek konstruksi. Perbandingan antara pondasi dangkal dan pondasi dalam dapat dilihat pada tabel~\ref{tb:dangkal} berikut.
+
+\begin{table}[htb]
+	\caption{Perbandingan antara Pondasi Dangkal dan Dalam}
+	\label{tb:dangkal}
+	\begin{tabularx}{.8\textwidth}{cXXX}
+		\textbf{No}  &  \textbf{Aspek}    &  \textbf{Pondasi Dangkal}                           &  \textbf{Pondasi Dalam}  \\
+		\hline
+		1            &  Kedalaman         &  Dekat permukaan tanah (1-3 meter).                 &  Dalam (lebih dari 3 meter).  \\
+		\hline
+		2            &  Kondisi Tanah     &  Cocok untuk tanah stabil dengan daya dukung baik.  &  Cocok untuk tanah lunak atau tidak stabil.  \\
+		\hline
+		3            &  Beban Bangunan    &  Untuk bangunan kecil hingga menengah.              &  Untuk bangunan besar, tinggi, atau berat.  \\
+		\hline
+		4            &  Biaya             &  Lebih ekonomis.                                    &  Lebih mahal.  \\
+		\hline
+		5            &  Waktu Konstruksi  &  Relatif cepat.                                     &  Memakan waktu lebih lama.  \\
+	\end{tabularx}
+\end{table}
+
+
+\subsection{Kolom}%
+\label{sub:Kolom}
+
+Kolom adalah elemen struktural vertikal yang berfungsi
+untuk mentransfer beban dari struktur atas (seperti balok, lantai, atau atap) ke pondasi. Kolom berperan penting dalam menjaga stabilitas dan kestabilan bangunan terhadap gaya-gaya vertikal maupun lateral, seperti gempa atau angin. Fungsi kolom adalah menyangga beban vertikal, stabilitas bangunan dimana kolom memastikan struktur tetap kokoh dan seimbang, menahan gaya horizontal, dan juga elemen arsitektural (estetis dalam desain bangunan). Kolom dapat diklasifikasikan berdasarkan berbagai faktor, seperti material, bentuk penampang, jenis beban, posisi, dan cara konstruksi. Sistem perhitungan untuk menentukan besaran kolom pada bangunan berlantai, yaitu: 1/10 sampai dengan 1/12 dari bentangan modul. Modul adalah sistem grid yang dipergunakan dalam penempatan modul atau batasan bentangan untuk penempatan kolom. Untuk bangunan 2 (dua) lantai dalam menentukan besaran kolom yang dipakai 1/20 dari bentangan modul, contoh:
+
+Besaran modul :
+= (1/10x600) x (1/10x600)
+= 60 cm x 60 cm besaran kolomA
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=.82\textwidth]{klasifikasi_kolom.jpeg}
+	\end{center}
+	\caption{Klasifikasi Kolom}
+	\label{fig:klaskolom}
+\end{figure}
+
+Umumnya kolom terdari dari 4 elemen yaitu penampang kolom (bentuk), tulangan baja (Reinforcement), Bahan Pengisi (misalnya ada material tambahan), dan penempatan kolom. Parameter perancangan kolom:
+
+\begin{enumerate}
+	\item Beban yang ditanggung, yaitu beban mati, beban hidup, dan beban lateral (angin, gempa, dan tekanna tanah)
+	\item Dimensi kolom, yaitu tinggi kolom untuk menentukan kekakuan dan risiko tekuk, dan penampang kolom yang mempengaruhi daya dukung
+	\item Material, yaitu kekuatan beton \textit{(f'c)} dan baja \textit{(fy)}.
+\end{enumerate}
+
+Perbandingan Ukuran Kolom dan Beban
+
+\begin{table}[htb]
+	\caption{Perbandingan Ukuran Kolom dan Beban}
+	\label{tb:bandingukuran}
+	\begin{tabularx}{.83\textwidth}{cp{3cm}Xp{4cm}}
+		\textbf{No}  &  \textbf{Dimensi Kolom (cm)}  &  \textbf{Kuat Tekan Maksimum (kN)}  &  \textbf{Jumlah Tulangan Longitudinal}  \\
+		\hline
+		1            &  20 x 20                      &  400                                &  4 batang D12  \\
+		\hline
+		2            &  25 x 25                      &  625                                &  4 batang D16  \\
+		\hline
+		3            &  30 x 30                      &  900                                &  6 batang D16  \\
+		\hline
+		4            &  40 x 40                      &  1600                               &  8 batang D20  \\
+		\hline
+	\end{tabularx}
+\end{table}
+
+\subsubsection{Cara menghitung besaran kolom}%
+\label{ssub:Cara menghitung besaran kolom}
+
+\begin{enumerate}
+	\item Perhitungan Luas Penampang Kolom
+	\item[] Untuk menentukan dimensi kolom, digunakan rumus dasar:
+
+	\item[] \begin{equation}
+		      A_c = \frac{P_u}{\phi \, f'_c}
+	      \end{equation}
+
+	      Dimana:
+	      \begin{flushleft}
+		      dengan:
+		      \begin{tabular}{ll}
+			      $A_c$   &  = luas penampang beton tekan (mm$^2$)  \\
+			      $P_u$   &  = beban terfaktor (N)  \\
+			      $\phi$  &  = faktor reduksi kekuatan  \\
+			      $f'_c$  &  = kuat tekan beton (MPa)
+		      \end{tabular}
+	      \end{flushleft}A
+
+	\item Perhitungan Tulangan Longitudinal
+	\item[] Jumlah tulangan longitudinal dihitung berdasarkan kebutuhan daya dukung tekan dan tarik:
+
+	\item[] \begin{equation}
+		      A_s = \frac{P_u - \phi \, A_c \, f'_c}{\phi \, f_y}
+	      \end{equation}
+
+	      \begin{flushleft}
+
+		      dengan:
+		      \begin{tabular}{ll}
+			      $A_s$   &  = luas tulangan baja tarik (mm$^2$)  \\
+			      $P_u$   &  = beban aksial terfaktor (N)  \\
+			      $\phi$  &  = faktor reduksi kekuatan  \\
+			      $A_c$   &  = luas penampang beton (mm$^2$)  \\
+			      $f'_c$  &  = kuat tekan beton (MPa)  \\
+			      $f_y$   &  = kuat leleh baja tulangan (MPa)
+		      \end{tabular}
+	      \end{flushleft}
+
+	\item Perhitungan Tulangan Sengkang
+	\item[] Jarak antar sengkang ditentukan untuk mengontrol gaya geser:
+
+	\item[]
+	      \begin{equation}
+		      S = \frac{0{,}75\, d}{\sqrt{f'_c}}
+	      \end{equation}
+	      \begin{flushleft}
+		      dengan:
+		      \begin{tabular}{ll}
+			      $S$     &  = jarak antar tulangan (mm)  \\
+			      $d$     &  = tinggi efektif penampang (mm)  \\
+			      $f'_c$  &  = kuat tekan beton (MPa)
+		      \end{tabular}
+	      \end{flushleft}
+
+	\item Pemeriksaan Stabilitas Kolom
+	\item [] Pastikan kolom aman terhadap tekuk menggunakan rasio
+	      kelangsingan (k):
+
+	      \begin{equation}
+		      k = \frac{L_e}{r}
+	      \end{equation}
+
+	      \begin{flushleft}
+		      dengan:
+		      \begin{tabular}{ll}
+			      $k$    &  = rasio kelangsingan kolom  \\
+			      $L_e$  &  = panjang efektif kolom (mm)  \\
+			      $r$    &  = jari-jari girasi penampang (mm)
+		      \end{tabular}
+	      \end{flushleft}
+
+\end{enumerate}
+
+
+
+% \bibliographystyle{apalike}
+% \bibliography{../biblio.bib} % required for citecompletion, not work in mainfile
+\end{document}
+
